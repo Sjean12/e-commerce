@@ -155,36 +155,25 @@ button:active {
 
 #highlights:after,
 #highlights:before {
-
-}
-
-#highlights:before {
-  background: url(./assets/wave.svg);
+background: url(./assets/wave.svg);
   content: "";
   position: absolute;
   width: 101vw;
   height: 12vw;
-  top: 1px;
   left: 0;
   z-index: 1;
   background-size: cover;
   background-repeat: no-repeat;
-  transform: translateY(-100);
+}
+
+#highlights:before {
+  transform: translateY(-100%);
   top: 1px;
 }
 
 #highlights:after {
-  background: url(./assets/wave.svg);
-  content: "";
-  position: absolute;
-  width: 101vw;
-  height: 12vw;
-  top: 1px;
-  left: 0;
-  z-index: 1;
-  background-size: cover;
-  background-repeat: no-repeat;
-  transform: translateY(100) rotate(180deg);
+  transform: translateY(100%) rotate(180deg);
+  bottom: 1px;
 }
 
 .highlight__wrapper {
