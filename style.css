@@ -100,7 +100,7 @@ li {
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: 100%;
+  z-index: 100;
   display: flex; 
   justify-content: center;
   align-items: center;
@@ -303,7 +303,7 @@ FEATURED
 */
 
 #featured {
-  padding-top: 16vw;
+  padding-top: 10vw;
   background-color: rgba(94, 75, 131, 0.233);
 }
 
@@ -448,4 +448,7 @@ footer .container {
      margin-bottom: 24px;
   }
 
+}
+#Latest {
+  padding-top: 54px;
 }
